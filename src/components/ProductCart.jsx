@@ -9,7 +9,7 @@ export default function ProductCart({ name, price, image }) {
           <h4>{price} Sek</h4>
         </div>
         <div className="product-cart__text-container">
-          <p>Quantità </p>
+          <p>Quantity </p>
           <p>Remove</p>
         </div>
       </div>

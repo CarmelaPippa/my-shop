@@ -24,14 +24,12 @@ export default function ItemProduct() {
   return (
     <>
       <Header></Header>
-      <div>
+      <div className="item__container">
         <img src={image} alt={name}></img>
-        <div>
+        <div className="item-text">
           <div>
             <h2>{name}</h2>
             <p>{description}</p>
-          </div>
-          <div>
             <h3>{price} Sek</h3>
             <ButtonAddCart></ButtonAddCart>
           </div>

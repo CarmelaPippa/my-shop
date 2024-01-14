@@ -26,7 +26,7 @@
   flex-wrap: wrap;
 }
 
-/* PRODUCT */
+/* PRODUCTS */
 .product-box {
   display: flex;
   flex-direction: column;
@@ -50,6 +50,16 @@
   font-weight: 500;
 }
 
+/* ITEM PRODUCT */
+.item__container {
+  display: flex;
+}
+
+.item-text {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
 /* SHOPPING CART */
 .products--array {
   display: flex;
